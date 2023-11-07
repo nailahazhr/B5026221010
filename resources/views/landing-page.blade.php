@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>PT Kharisma Samudera Lintasindo</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Template Main CSS File -->
+    <link href="midterm-assets/010_Nailah.css" rel="stylesheet">
+
+    <!-- Tab Icon -->
+    <link href="midterm-assets/img/nailah-logo.png" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="midterm-assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="midterm-assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="midterm-assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="midterm-assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="midterm-assets/vendor/aos/aos.css" rel="stylesheet">
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="nailah-header fixed-top d-flex align-items-center">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+
+            <!-- Company Logo -->
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="midterm-assets/img/nailah-logo.png" alt="" class="img-fluid">
+            </a>
+
+            <!-- Nav Menu -->
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero" class="active">Beranda</a></li>
+                    <li><a href="index.html#about">Tentang Kami</a></li>
+                    <li><a href="index.html#services">Layanan</a></li>
+                    <li><a href="index.html#team">Tim</a></li>
+                    <li><a href="index.html#contact">Kontak</a></li>
+                </ul>
+
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <!-- Get Started Button -->
+            <a class="space"></a>
+
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="nailah-hero d-flex align-items-center">
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+                <img src="midterm-assets/img/nailah-logo white.png">
+                <h1>Membangun negeri <br> lewat Pengiriman Cepat dan Mudah</h1>
+                <a href="#about" class="btn-get-started scrollto">MARI MULAI</a>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients" class="nailah-partner">
+
+            <div class="container-fluid" data-aos="fade-up">
+
+                <div class="row gy-4">
+
+                    <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                        <img src="midterm-assets/img/partner/nailah-antarmitraLogo.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                        <img src="midterm-assets/img/partner/nailah-astraLogo.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                        <img src="midterm-assets/img/partner/nailah-CKBLogo.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                        <img src="midterm-assets/img/partner/nailah-UTLogo.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                        <img src="midterm-assets/img/partner/nailah-wismilakLogo.jpeg" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                    <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                        <img src="midterm-assets/img/partner/nailah-cevaLogo.png" class="img-fluid" alt="">
+                    </div><!-- End Client Item -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="nailah-about">
+
+            <!--  Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Tentang Kami</h2>
+                <p>Kilas seputar PT Kharisma Samudera Lintasindo</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4 align-items-center about-item">
+                    <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                        <h2>Tentang PT Kharisma Samudera Lintasindo</h2>
+                        <p>
+                            Telah berdiri sejak tanggal 21 Agustus 2000 hingga saaat ini, kami melayani pegiriman dan
+                            logistik serta
+                            trucking door to door services Via Darat dan Laut yang berpusat di kota Surabaya. Jasa
+                            pengiriman dan
+                            logistik kami telah melayani wilayah Kalimantan, Sulawesi, Bali, Nusa Tenggara, dan seluruh
+                            Jawa.
+                        </p>
+                        <a href="https://www.kslkargo.com/" class="more"><span>Selengkapnya</span><i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
+                        data-aos-delay="100">
+                        <div class="image-stack">
+                            <img src="midterm-assets/img/nailah-foto.jpg" alt="" class="stack-front">
+                            <img src="midterm-assets/img/nailah-foto2.jpeg" alt="" class="stack-back">
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- Value -->
+        <section id="value" class="nailah-value">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-xl-center gy-5">
+                    <div class="row gy-4 icon-boxes">
+
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon-box">
+                                <i class="bi bi-clock"></i>
+                                <h3>Cepat</h3>
+                                <p>Kami menjamin bahwa setiap barang kiriman Anda akan tiba di tujuan dengan lebih
+                                    cepat,
+                                    memprioritaskan efisiensi dan keandalan dalam layanan kami. </p>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon-box">
+                                <i class="bi bi-hand-thumbs-up"></i>
+                                <h3>Mudah</h3>
+                                <p>Anda hanya perlu menghubungi tim penjualan kami melalui telepon atau pesan, dan kami
+                                    akan segera
+                                    mengatur penjemputan barang Anda.</p>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="icon-box">
+                                <i class="bi bi-cash-coin"></i>
+                                <h3>Murah</h3>
+                                <p>Harga yang kami tawarkan untuk layanan pengiriman barang kami jauh lebih kompetitif
+                                    daripada yang
+                                    ditawarkan oleh penyedia jasa lainnya.</p>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="nailah-services">
+
+            <!--  Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Layanan Kami</h2>
+                <p>Jelajahi layanan kami dan temukan bagaimana kami dapat membantu Anda mencapai tujuan Anda.</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-item">
+                            <div class="img">
+                                <img src="midterm-assets/img/services/nailah-KSLReguler.jpeg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="details position-relative">
+                                <div class="icon">
+                                    <i class="bi bi-1-circle"></i>
+                                </div>
+                                <div class="stretched-link">
+                                    <h3><img src="midterm-assets/img/nailah-logo.png" style="width: 13%;"> Reguler</h3>
+                                </div>
+                                <p>Pengiriman barang menggunakan kapal container untuk semua wilayah dengan waktu
+                                    pengiriman standar.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="service-item">
+                            <div class="img">
+                                <img src="midterm-assets/img/services/nailah-KSLkhusus.jpeg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="details position-relative">
+                                <div class="icon">
+                                    <i class="bi bi-2-circle"></i>
+                                </div>
+                                <div class="stretched-link">
+                                    <h3><img src="midterm-assets/img/nailah-logo.png" style="width: 13%;"> Khusus</h3>
+                                </div>
+                                <p>Pengiriman barang menggunakan kapal RORO dan ferry cepat yang cenderung khusus pada
+                                    wilayah tertentu
+                                    saja.</p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="service-item">
+                            <div class="img">
+                                <img src="midterm-assets/img/services/nailah-KSLspesial.jpeg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="details position-relative">
+                                <div class="icon">
+                                    <i class="bi bi-3-circle"></i>
+                                </div>
+                                <div class="stretched-link">
+                                    <h3><img src="midterm-assets/img/nailah-logo.png" style="width: 13%;"> Spesial</h3>
+                                </div>
+                                <p>Pengiriman barang tertentu menggunakan truk yang cenderung khusus pada satu wilayah
+                                    saja dan lebih
+                                    akurat.</p>
+                            </div>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Tracking -->
+        <section id="tracking" class="nailah-tracking">
+
+            <img src="midterm-assets/img/nailah-bg2.jpeg" alt="">
+
+            <div class="container">
+                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-xl-10">
+                        <div class="text-center">
+                            <h3>Lacak Barangmu Disini</h3>
+                            <p>Gunakan nomor pelacakan yang telah diberikan <br> untuk mendapatkan informasi terkini
+                                tentang lokasi
+                                dan perkiraan waktu tiba barang Anda.</p>
+                            <a class="track-btn" href="https://www.tracking.kslkargo.com/">Lacak Pengiriman</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="nailah-team">
+
+            <!--  Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Tim Kami</h2>
+                <p>Temukan lebih lanjut tentang tim kami dan mengapa mereka adalah aset berharga dalam memenuhi
+                    kebutuhan Anda.
+                </p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="midterm-assets/img/team/nailah-team1.png" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Eusthacius Kristianto</h4>
+                                <span>Direktur Utama</span>
+                                <p>Pengambil keputusan strategis PT KSL</p>
+                                <div class="social">
+                                    <a href="index.html#team"><i class="bi bi-facebook"></i></a>
+                                    <a href="index.html#team"><i class="bi bi-instagram"></i></a>
+                                    <a href="index.html#team"> <i class="bi bi-linkedin"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="midterm-assets/img/team/nailah-team2.png" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Maman Juliaman</h4>
+                                <span>Direktur</span>
+                                <p>Pengelola operasi dan kebijakan PT KSL</p>
+                                <div class="social">
+                                    <a href="index.html#team"><i class="bi bi-facebook"></i></a>
+                                    <a href="index.html#team"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://id.linkedin.com/in/ksl-maman-juliaman-21aa3775"> <i
+                                            class="bi bi-linkedin"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- End Team Member -->
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="nailah-contact">
+
+            <!--  Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Kontak Kami</h2>
+                <p>Berinteraksi dengan tim kami, ajukan pertanyaan, berikan umpan balik, atau cari bantuan. Kami selalu
+                    siap
+                    untuk memberikan dukungan yang Anda butuhkan.</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="info">
+                            <div class="address">
+                                <a
+                                    href=https://www.google.com/maps/dir//Jl.+Teluk+Kumai+Timur+No.17,+Perak+Utara,+Kec.+Pabean+Cantikan,+Surabaya,+Jawa+Timur+60165/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x2dd7f8dc73227faf:0xbbb4efe55e03be8c?sa=X&ved=2ahUKEwiQzvWz6YGCAxWvV2wGHUmPDYwQwwV6BAgMEAA&ved=2ahUKEwiQzvWz6YGCAxWvV2wGHUmPDYwQwwV6BAgOEAQ><i
+                                        class="bi bi-geo-alt"></i></a>
+                                <h4>Alamat</h4>
+                                <p>Jalan Teluk Kumai Timur No. 17, Perak Utara, Kec. Pabean Cantikan, Surabaya, Jawa
+                                    Timur 60165</p>
+                            </div>
+
+                            <div class="email">
+                                <a
+                                    href=https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWPQXmxWcxDkdPxhdRdQkHPGfWGQSmsxZLnkWqTCplNlcbPSbZqCdPHRvbDCptJpLmxhg><i
+                                        class="bi bi-envelope"></i></a>
+                                <h4>Email Kami</h4>
+                                <p style="padding-top: 0px;">centralinfo.ksl@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Hubungi Kami</h4>
+                                <p>(031) 328 4228 <br> (031) 328 4229</p>
+                            </div>
+
+                            <div class="gmaps">
+                                <iframe class="mb-4 mb-lg-0" style="border: 0; width: 100%; height: 300px"
+                                    src="https://www.google.com/maps/embed/v1/place?q=jalan+teluk+kumai+timur+no.17,+surabaya&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <form id="contact-form" class="contact-form" method="get">
+                            <div class="row gy-4">
+                                <div class="col-md-12"><input type="text" id="name" class="form-control"
+                                        placeholder="Nama anda"></div>
+                                <div class="error" id="name-error"></div>
+                                <div class="col-md-12"><input type="email" id="email" class="form-control"
+                                        placeholder="Email anda"></div>
+                                <div class="error" id="email-error"></div>
+                                <div class="col-md-12"><input type="text" id="subject" class="form-control"
+                                        placeholder="Subject"></div>
+                                <div class="error" id="subject-error"></div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="message" rows="10" placeholder="Message"></textarea>
+                                </div>
+                                <div class="error" id="message-error"></div>
+                                <p class="statement text-success"></p>
+                                <div class="col-md-12 text-center"><input type="submit" value="Kirim pesan"></div>
+                            </div>
+                            <script src="midterm-assets/010_Nailah.js"></script>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Links -->
+        <section id="links" class="nailah-links">
+
+            <!--  Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Kumpulan Tautan Tugas</h2>
+                <p>Semua materi dan tugas mata kuliah pemrograman web terangkum sesuai dengan urutan pertemuan yang diwakili dengan nomor button.</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-xl-center gy-5">
+                    <div class="row gy-4 icon-boxes">
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon-box">
+                                <a href="file1" target="_blank">1</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon-box">
+                                <a href="file2-1" target="_blank">2-1</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="400">
+                            <div class="icon-box">
+                                <a href="file2-2" target="_blank">2-2</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="500">
+                            <div class="icon-box">
+                                <a href="file3" target="_blank">3</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="600">
+                            <div class="icon-box">
+                                <a href="file4" target="_blank">4</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="700">
+                            <div class="icon-box">
+                                <a href="file5-1" target="_blank">5-1</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="800">
+                            <div class="icon-box">
+                                <a href="file5-2" target="_blank">5-2</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="900">
+                            <div class="icon-box">
+                                <a href="file6" target="_blank">6</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+                        <div class="col-md-1" data-aos="fade-up" data-aos-delay="1000">
+                            <div class="icon-box">
+                                <a href="file7" target="_blank">Task</a>
+                            </div>
+                        </div> <!-- End Icon Box -->
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="nailah-footer">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span><img src="midterm-assets/img/nailah-logo.png"></span>
+                    </a>
+                    <p>Perusahaan bidang jasa pengiriman dan logistik ke seluruh Indonesia.</p>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="index.html#hero">Beranda</a></li>
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="index.html#services">Layanan</a></li>
+                        <li><a href="index.html#team">Tim</a></li>
+                        <li><a href="index.html#contact">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="index.html#services">KSL Reguler</a></li>
+                        <li><a href="index.html#services">KSL Khusus</a></li>
+                        <li><a href="index.html#services">KSL Special</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Kontak</h4>
+                    <p>Jalan Teluk Kumai Timur No. 17</p>
+                    <p>Surabaya, Jawa Timur 60165</p>
+                    <p>Indonesia</p>
+                    <p class="mt-4"><strong>Telepon:</strong> <span>(031) 328 4228 / (031) 328 4229</span></p>
+                    <p><strong>Email:</strong> <span>centralinfo.ksl@gmail.com</span></p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top Button -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="midterm-assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="midterm-assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="midterm-assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="midterm-assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="midterm-assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="midterm-assets/vendor/aos/aos.js"></script>
+    <script src="midterm-assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="midterm-assets/js/main.js"></script>
+
+</body>
+
+</html>
