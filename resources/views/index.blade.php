@@ -6,14 +6,14 @@
 
     <h3>Data Pegawai</h3>
 
-    <a href="/pegawai/tambah" class="btn btn-primary"> + Tambah Pegawai Baru</a>
+    <a href="/pegawai/tambah" class="btn btn-primary mt-3"> + Tambah Pegawai Baru</a>
 
     <br>
     <p class="mt-4">Cari Data Pegawai berdasarkan Nama:</p>
-	<form action="/pegawai/cari" method="GET">
-		<input class="form-control mr-2 w-25" type="text" name="cari" placeholder="Cari Pegawai .." value="{{ old("cari", isset($cari) ? $cari : '') }}">
-		<input class="btn btn-primary my-2 my-sm-0" type="submit" value="CARI">
-	</form>
+	<form action="/pegawai/cari" method="GET" class="d-flex">
+        <input class="form-control mr-2" type="text" name="cari" placeholder="Cari Pegawai .." value="{{ old("cari", isset($cari) ? $cari : '') }}">
+        <input class="btn btn-primary my-2 my-sm-0" type="submit" value="CARI">
+    </form>
     <br/>
 
     <table class="table table-striped table-hover">
@@ -31,8 +31,8 @@
                 <td>{{ $p->pegawai_umur }}</td>
                 <td>{{ $p->pegawai_alamat }}</td>
                 <td>
+                    <a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-success">View</a>
                     <a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-warning">Edit</a>
-                    |
                     <a href="/pegawai/hapus/{{ $p->pegawai_id }}" class="btn btn-danger">Hapus</a>
                 </td>
             </tr>
