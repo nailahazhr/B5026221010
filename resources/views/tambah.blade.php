@@ -28,7 +28,7 @@
         <div class="form-group row">
             <label for="Umur" class="col-sm-1 col-form-label">Umur</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="Umur" name="Umur">
+                <input type="number" class="form-control" id="Umur" name="Umur">
             </div>
         </div>
 
