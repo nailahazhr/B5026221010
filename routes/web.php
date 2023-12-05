@@ -76,3 +76,9 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@viewed');
+
+//route untuk BelanjaController
+Route::get('/keranjangbelanja','App\Http\Controllers\BelanjaController@index');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\BelanjaController@store');
+Route::get('/keranjangbelanja/tambah','App\Http\Controllers\BelanjaController@tambah');
+Route::get('/keranjangbelanja/hapus/{ID}','App\Http\Controllers\BelanjaController@hapus');

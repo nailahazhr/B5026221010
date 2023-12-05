@@ -30,35 +30,36 @@
                 <div class="form-group row">
                     <label for="Name" class="col-sm-2 col-form-label">Nama</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="nama" value="{{ $p->pegawai_nama }}" readonly>
+                        <div class="form-label" name="nama">{{ $p->pegawai_nama }}</div>
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="Jabatan" class="col-sm-2 col-form-label">Jabatan</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="jabatan" value="{{ $p->pegawai_jabatan }}" readonly>
+                        <div class="form-label" name="jabatan">{{ $p->pegawai_jabatan }}</div>
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="Umur" class="col-sm-2 col-form-label">Umur</label>
                     <div class="col-sm-10">
-                        <input type="number" class="form-control" name="umur" value="{{ $p->pegawai_umur }}" readonly>
+                        <div class="form-label" name="umur">{{ $p->pegawai_umur }}</div>
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="Alamat" class="col-sm-2 col-form-label">Alamat</label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" name="alamat" readonly>{{ $p->pegawai_alamat }} </textarea>
+                        <div class="form-label" name="alamat">{{ $p->pegawai_alamat }} </div>
                     </div>
                 </div>
                 <br>
 
                 <div class="text-center">
-                    <input class="btn btn-primary px-5" type="submit" value="OK">
+                    <a class="btn btn-primary px-5" href="/pegawai">OK</a>
                 </div>
+
             </form>
             @endforeach
         </div>

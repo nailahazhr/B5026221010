@@ -1,4 +1,4 @@
-<html lang="en">
+{{-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,4 +24,9 @@
         Hak Cipta © 2023 oleh Nailah Azzahra
     </footer>
 </body>
-</html>
+</html> --}}
+<footer class="text-center">
+    <br>
+    Hak Cipta © 2023 oleh Nailah Azzahra
+    <br>
+</footer>
