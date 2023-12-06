@@ -13,14 +13,14 @@
 
         <div class="form-group row">
             <label for="Merk" class="col-sm-2 col-form-label">Merk Laptop</label>
-            <div class="col-sm-8">
+            <div class="col-sm-6">
                 <input type="text" class="form-control" id="Merk" name="Merk">
             </div>
         </div>
 
         <div class="form-group row">
             <label for="Stok" class="col-sm-2 col-form-label">Stok Laptop</label>
-            <div class="col-sm-2">
+            <div class="col-sm-6">
                 <input type="text" class="form-control" id="Stok" name="Stok">
             </div>
         </div>
