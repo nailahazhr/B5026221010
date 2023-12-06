@@ -12,7 +12,7 @@ class LaptopController extends Controller
 	{
     	// mengambil data dari table laptop
 		$laptop = DB::table('laptop')
-						->orderBy('merklaptop', 'asc')
+						->orderBy('kodelaptop', 'asc')
 						->paginate(10);
 
     	// mengirim data laptop ke view index
