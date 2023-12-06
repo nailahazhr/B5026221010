@@ -82,3 +82,21 @@ Route::get('/keranjangbelanja','App\Http\Controllers\BelanjaController@index');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\BelanjaController@store');
 Route::get('/keranjangbelanja/tambah','App\Http\Controllers\BelanjaController@tambah');
 Route::get('/keranjangbelanja/hapus/{ID}','App\Http\Controllers\BelanjaController@hapus');
+
+//route untuk BelanjaController
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::get('/nilaikuliah/hapus/{ID}','App\Http\Controllers\NilaiController@hapus');
+
+//route untuk LaptopController
+Route::get('/laptop','App\Http\Controllers\LaptopController@index');
+Route::post('/laptop/store','App\Http\Controllers\LaptopController@store');
+Route::get('/laptop/tambah','App\Http\Controllers\LaptopController@tambah');
+Route::get('/laptop/cari','App\Http\Controllers\LaptopController@cari');
+Route::get('/laptop/hapus/{id}','App\Http\Controllers\LaptopController@hapus');
+Route::get('/laptop/edit/{id}','App\Http\Controllers\LaptopController@edit');
+Route::get('/laptop/view/{id}','App\Http\Controllers\LaptopController@view');
+Route::post('/laptop/update','App\Http\Controllers\LaptopController@update');
+
+

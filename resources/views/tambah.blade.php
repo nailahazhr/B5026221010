@@ -42,12 +42,6 @@
 
         <a class="btn btn-success" href="/pegawai"> Kembali</a>
         <input class="btn btn-primary" type="submit" value="Simpan Data">
-
-		{{-- Nama   : <input type="text" name="nama"> <br/>
-		Jabatan: <input type="text" name="jabatan"> <br/>
-		Umur   : <input type="number" name="umur"> <br/>
-		Alamat : <textarea name="alamat"></textarea> <br/>
-		<input type="submit" value="Simpan Data"> --}}
 	</form>
     <br/>
     <br/>

@@ -11,17 +11,16 @@ class BelanjaController extends Controller
 	public function index()
 	{
     	// mengambil data dari table keranjangbelanja
-		$keranjangbelanja = DB::table('keranjangbelanja')
-						    ->orderBy('ID', 'asc')->get();
+		$keranjangbelanja = DB::table('keranjangbelanja')->get();
     	// mengirim data pegawai ke view index
-		return view('indexBelanja',['keranjangbelanja' => $keranjangbelanja]);
+		return view('belanjaIndex',['keranjangbelanja' => $keranjangbelanja]);
 	}
 
 	// method untuk menampilkan view form tambah pegawai
 	public function tambah()
 	{
 		// memanggil view tambah
-		return view('beli');
+		return view('belanjaTambah');
 	}
 
     public function store(Request $request)
@@ -34,7 +33,6 @@ class BelanjaController extends Controller
 		]);
 		// alihkan halaman ke halaman pegawai
 		return redirect('/keranjangbelanja');
-
 	}
 
 	// method untuk hapus data
