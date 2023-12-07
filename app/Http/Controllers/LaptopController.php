@@ -90,13 +90,4 @@ class LaptopController extends Controller
 		// alihkan halaman ke halaman pegawai
 		return redirect('/laptop');
 	}
-
-    public function check($stocklaptop)
-    {
-        if ($stocklaptop < 1) {
-            return 'unchecked';
-        } else {
-            return 'checked';
-        }
-    }
 }
