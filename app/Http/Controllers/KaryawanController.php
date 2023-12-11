@@ -38,10 +38,17 @@ class KaryawanController extends Controller
 
     public function store(Request $request)
     {
+        DB::table('Karyawan')->insert([
+            'kodepegawai' => $request->kode,
+            'namalengkap' => $request->nama,
+            'divisi' => $request->divisi,
+            'departemen' => $request->departemen
+        ]);
+
         $validator = Validator::make($request->all(), [
             'kodepegawai' => 'required|unique:Karyawan'
         ], [
-            'kodepegawai.unique' => 'Kode pegawai telah terdaftar.',
+            'kodepegawai' => 'Kode pegawai telah terdaftar.',
         ]);
 
         // Jika validasi gagal, kembali ke halaman tambah dengan pesan kesalahan
@@ -51,14 +58,6 @@ class KaryawanController extends Controller
                 ->withInput()
                 ->with('error', 'Kode pegawai telah terdaftar.');
         }
-
-        // Jika validasi sukses, insert data ke database
-        DB::table('Karyawan')->insert([
-            'kodepegawai' => $request->kode,
-            'namalengkap' => $request->nama,
-            'divisi' => $request->divisi,
-            'departemen' => $request->departemen
-        ]);
 
         return redirect('/Karyawan');
     }
