@@ -38,7 +38,6 @@ class KaryawanController extends Controller
 
     public function store(Request $request)
     {
-        // Validasi input
         $validator = Validator::make($request->all(), [
             'kodepegawai' => 'required|unique:Karyawan'
         ], [
@@ -48,8 +47,9 @@ class KaryawanController extends Controller
         // Jika validasi gagal, kembali ke halaman tambah dengan pesan kesalahan
         if ($validator->fails()) {
             return redirect('Karyawan/tambah')
-                        ->withErrors($validator)
-                        ->withInput();
+                ->withErrors($validator)
+                ->withInput()
+                ->with('error', 'Kode pegawai telah terdaftar.');
         }
 
         // Jika validasi sukses, insert data ke database
@@ -60,7 +60,6 @@ class KaryawanController extends Controller
             'departemen' => $request->departemen
         ]);
 
-        // Redirect ke halaman index dengan pesan sukses
         return redirect('/Karyawan');
     }
 
