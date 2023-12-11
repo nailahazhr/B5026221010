@@ -7,11 +7,6 @@
     <h3>Data Karyawan</h3>
 
     <br>
-    {{-- <p class="mt-4">Cari Data Pegawai berdasarkan Nama:</p>
-	<form action="/pegawai/cari" method="GET" class="d-flex">
-        <input class="form-control mr-2" type="text" name="cari" placeholder="Cari Pegawai .." value="{{ old("cari", isset($cari) ? $cari : '') }}">
-        <input class="btn btn-primary my-2 my-sm-0" type="submit" value="CARI">
-    </form> --}}
     <br/>
 
     <table class="table table-striped table-hover">

@@ -62,5 +62,4 @@ class KaryawanController extends Controller
 
         return redirect('/Karyawan');
     }
-
 }
