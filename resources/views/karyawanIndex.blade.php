@@ -7,7 +7,6 @@
     <h3>Data Karyawan</h3>
 
     <br>
-    <br/>
 
     <table class="table table-striped table-hover">
         <tr>

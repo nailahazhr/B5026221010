@@ -1,19 +1,8 @@
 <?php
 
-//Route terdapat dalam package Illuminate.
-// synonym "use" adalah "import", import digunakan di java.
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+/*--------------------------------------------------*/
 
 Route::get('/', function () {
     return view('landing-page');
@@ -103,8 +92,3 @@ Route::get('/Karyawan','App\Http\Controllers\KaryawanController@index');
 Route::post('/Karyawan/store','App\Http\Controllers\KaryawanController@store');
 Route::get('/Karyawan/tambah','App\Http\Controllers\KaryawanController@tambah');
 Route::get('/Karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
-
-// Route::get('/laptop/cari','App\Http\Controllers\LaptopController@cari');
-// Route::get('/laptop/hapus/{id}','App\Http\Controllers\LaptopController@hapus');
-// Route::get('/laptop/edit/{id}','App\Http\Controllers\LaptopController@edit');
-// Route::post('/laptop/update','App\Http\Controllers\LaptopController@update');
